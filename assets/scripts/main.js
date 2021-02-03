@@ -16,7 +16,7 @@ volumeNumber.addEventListener("input", changeSliderVolume);
 volumeSlider.addEventListener("input", changeNumVolume);
 
 function changeSliderVolume() {
-    volumeSlider.value = volumeNumber.value;
+    volumeSlider.value = volumeNumber.value; 
     changeVolIcon();
 }
 
